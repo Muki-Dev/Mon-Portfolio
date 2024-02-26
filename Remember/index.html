@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,17 @@
     <h1>Remember</h1>
     <form class="formContainer">
         <label for="textField">Faite votre liste</label>
-        <button type="submit">Envoyer</button>
+        <input type="text" id="textField" name="textField" placeholder="Tapez ici" required>
+        <button type="submit">Ajouter</button>
     </form>
+    <div class="output">
+        <h2>Liste des Taches:</h2>
+        <ul>
+            <li>Aller à l'école</li>
+            <li>Acheter du Pain</li>
+            <li>Fais la Vaisselle</li>
+            <li>Sortir La poubelle</li>
+        </ul>
+    </div>
 </body>
 </html>
